@@ -11,7 +11,6 @@ section{
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -23,7 +22,7 @@ div{
 @media (min-width: 0px) and (max-width: 320px){
   section{
     background-image: url(../img/maxresdefault.jpg);
-
+    height: 100PX;
   }
   div{
     content: url(../img/kitten-small.png)
@@ -34,6 +33,7 @@ div{
 @media (min-width: 321px) and (max-width: 480px){
   section{
     background-image: url(../img/midnight-conversation_861064.jpg);
+    height: 400PX;
 }
  div{
   content: url(../img/kitten-large.png)
@@ -44,6 +44,7 @@ div{
 @media (min-width: 481px) and (max-width: 768px){
   section{
     background-image: url(../img/dawn.png);
+    height: 500PX;
   }
   div{
     content: url(../img/kitten-large.png)
@@ -53,6 +54,7 @@ div{
 @media (min-width: 769px) and (max-width: 1024px){
   section{
     background-image: url(../img/dawn.png);
+    height: 700PX;
   }
   div{
     content: url(../img/kitten-medium.png)
@@ -62,6 +64,7 @@ div{
 @media (min-width: 1025px) and (max-width: 1200px){
   section{
     background-image: url(../img/Landscape.jpg);
+    height: 900PX;
   }
   div{
     content: url(../img/kitten-medium.png)
