@@ -7,27 +7,46 @@ height: 100%;
 }
 
 section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 500px;
+  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
+}
+div{
+  width: 35%;
+  height: 40%;
 }
 
 @media (min-width: 0px) and (max-width: 320px){
   section{
-    background-image: url(../img/midnight-conversation_861064.jpg);
+    background-image: url(../img/maxresdefault.jpg);
+
   }
-}
+  div{
+    content: url(../img/kitten-small.png)
+  }
+  }
+
 
 @media (min-width: 321px) and (max-width: 480px){
   section{
-    background-image: url(../img/maxresdefault.jpg);
-  }
+    background-image: url(../img/midnight-conversation_861064.jpg);
 }
+ div{
+  content: url(../img/kitten-large.png)
+}
+}
+
 
 @media (min-width: 481px) and (max-width: 768px){
   section{
     background-image: url(../img/dawn.png);
+  }
+  div{
+    content: url(../img/kitten-large.png)
   }
 }
 
@@ -35,10 +54,16 @@ section{
   section{
     background-image: url(../img/dawn.png);
   }
+  div{
+    content: url(../img/kitten-medium.png)
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1200px){
   section{
     background-image: url(../img/Landscape.jpg);
+  }
+  div{
+    content: url(../img/kitten-medium.png)
   }
 }
